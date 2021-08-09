@@ -1,0 +1,134 @@
+
+  @font-face {
+    font-family: "menu";
+    src: url(../fonts/AnticSlab-Regular.ttf);
+  }
+    
+    @font-face {
+      font-family: "containerInicio";
+      src: url(../fonts/AnticSlab-Regular.ttf);
+    }
+    
+    @font-face {
+      font-family: "container";
+      src: url(../fonts/OpenSansCondensed-Bold.ttf);
+    }
+    @font-face {
+      font-family: "containerFinal";
+      src: url(../fonts/OpenSansCondensed-Bold.ttf);
+    }
+    
+    
+    .header-site {
+      background-image: url("img/capivaraHome.jpeg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     padding-top: 250px;
+     padding-bottom: 250px;
+     opacity: 90%;
+     
+    }
+
+    figcaption {
+      align-items: center;
+      
+    }
+
+
+    .menu {
+      margin-left: auto;
+      order: 2;
+      
+    }
+    
+    .menu a {
+      font-family: "menu";
+      text-decoration: none;
+      color: white;
+      font-size: 100%;
+      padding: 15px;
+    }
+    
+    .menu a:hover {
+      color: #e2c16e;;
+    }
+
+
+
+    
+    .conten-site{
+      padding-top: 100px;
+      background-color:whitesmoke;
+      display: caption text-center;
+    }
+    
+    .img-site {
+      background-image: url("img/oncapardaHome.jfif");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      padding-bottom: 200px;
+      padding-top: 200px;
+    }
+    
+    .containerInicio{
+      text-align: center;
+      font-family: "containerInicio";
+      color: #f5e4d7;
+      font-size: 20px;
+    }
+    .container{
+      text-align: center;
+      font-family: "container";
+      color: #363020;
+    }
+
+    .containerFinal{
+      text-align: center;
+      font-family: "containerFinal";
+      color: #f5e4d7;
+      font-size: 45px;
+    }
+    
+  .pzinho {
+   text-align: center;
+   font-size: 20px;
+   color: #363020;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-top: 3px;
+    
+  }
+  .leg{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #363020;
+  }
+  .fotos{
+    margin-top: 50px;
+    
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  
+
+.pp {
+  font-size: 18px;
+}
+
+
+  
+  .borda{
+    border-radius: 10%;
+  }
+
+ 
+
+
+.text-center{
+  font-size: 18px;
+}
